@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>School Website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <!--Assuming "Menu with Marquee" and "Contact Us" has been completed in Project 68 -->
+    <!--Assuming "Campus Life" and "Achievements" has been completed in Project 69-->
+    <!--Assuming "What's new" has been completed in Project 70-->
+    <div class="container">
+        <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12" id="alumni">
+            <h2 class="text-capitalize ">Our Alumni</h2>
+        </div>
+
+
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 book" id="aluminiList" data-toggle="modal" data-target="#school_alumni1">
+            <img src="6vV2DiBE_400x400.jpg" class="img-responsive">
+            <hr>
+            <p class="text-primary">Roshan Abbas</p>
+        </div>
+
+        <!-- Modal -->
+        <!-- Give bootstrap class modal fade-->
+        <div class="modal fade" id="school_alumni1">
+            <div class="modal-dialog">
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                       <!--Give the close button- &times;-->
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">Roshan Abbas</h4>
+                    </div>
+
+                    <div class="modal-body">
+                        <img src="6vV2DiBE_400x400.jpg" class="img-responsive img_modal">
+                        <p class="p_modal">Roshan Abbas is an Indian radio jockey, theatre actor, TV anchor, emcee, impresario, event manager, writer, and director. He is an alumnus of La Martiniere College, Lucknow.<br>
+                            <a href="https://en.wikipedia.org/wiki/Roshan_Abbas"><b>To Know More</b></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 book" id="aluminiList" data-toggle="modal" data-target="#school_alumni2">
+            <img src="220px-Priyanka-chopra-gesf-2018-7565.jpg" class="img-responsive">
+            <hr>
+            <p class="text-primary">Priyanka Chopra</p>
+        </div>
+        <!-- Modal -->
+        <div class="modal fade" id="school_alumni2">
+            <!-- Give bootstrap class modal-dialog-->
+            <div class="">
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">Priyanka Chopra</h4>
+                    </div>
+                     <!-- Give bootstrap class modal-body-->
+                    <div class="">
+                        <img src="220px-Priyanka-chopra-gesf-2018-7565.jpg">
+                        <p class="p_modal">Priyanka Chopra Jonas born 18 July 1982 is an Indian actress, model, and film producer.<br>
+                            <a href="https://en.wikipedia.org/wiki/Priyanka_Chopra"><b>To Know More</b></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+ 
+
+    </div>
+    <div id="footer"></div>
+</body>
+
+</html>
